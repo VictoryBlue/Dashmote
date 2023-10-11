@@ -7,9 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3f7fb;
 }
-* {
+/* * {
   font-size: 10px;
-}
+} */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
