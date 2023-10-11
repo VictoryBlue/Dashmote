@@ -5,3 +5,25 @@
 .divider {
   margin-top: 0px;
 }
+.container {
+  display: flex;
+}
+@media (min-width: 376px) {
+  /* 在这里添加你的样式规则 */
+  .container {
+    align-items: center;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+  /* 更多样式规则 */
+}
+
+@media (max-width: 376px) {
+  /* 在这里添加你的样式规则 */
+  .container {
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  /* 更多样式规则 */
+}

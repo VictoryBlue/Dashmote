@@ -8,8 +8,8 @@ const DmHeader = () => {
   return (
     <>
       <Header className="header">
-        <Col offset={20}>
-          <Space size={'large'}>
+        <Col>
+          <div className="container">
             <BellOutlined style={{ color }} />
             <span style={{ color, fontWeight: 600 }}>Sarah Green</span>
             <Avatar
@@ -17,7 +17,7 @@ const DmHeader = () => {
                 'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png'
               }
             />
-          </Space>
+          </div>
         </Col>
       </Header>
       <Divider className="divider" />
