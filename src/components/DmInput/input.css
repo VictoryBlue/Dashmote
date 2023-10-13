@@ -1,0 +1,10 @@
+.DmInput {
+  padding: 8px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .DmInput::before {
+    content: 'Here you can find your projects and dashboards.';
+  }
+}
