@@ -1,24 +1,22 @@
 import { Header } from 'antd/es/layout/layout';
 import './header.css';
 import { Divider, Avatar, Col } from 'antd';
-import { BellOutlined } from '@ant-design/icons';
+import { BellOutlined, UnorderedListOutlined } from '@ant-design/icons';
 
-const DmHeader = () => {
-  const color = '#283877';
+const DmHeader = ({ name }) => {
   return (
     <>
       <Header className="header">
-        <Col>
-          <div className="container">
-            <BellOutlined style={{ color }} />
-            <span style={{ color, fontWeight: 600 }}>Sarah Green</span>
-            <Avatar
-              src={
-                'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png'
-              }
-            />
-          </div>
-        </Col>
+        <div className="container">
+          <UnorderedListOutlined className="list-menu" />
+          <BellOutlined className="bell-menu" />
+          <span className="username-header">{name}</span>
+          <Avatar
+            src={
+              'https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png'
+            }
+          />
+        </div>
       </Header>
       <Divider className="divider" />
     </>
