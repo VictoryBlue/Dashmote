@@ -4,11 +4,14 @@
 }
 .search-info {
   color: #283877;
-  /* font-weight: 600; */
+  font-weight: 600;
   font-size: 0.8rem;
   padding-bottom: 2rem;
 }
-
+.table-body {
+  overflow-y: scroll;
+  /* height: 30vh; */
+}
 /* feat 4:  */
 /* iPhone 6-8: 375 * 667 像素 */
 @media screen and (min-width: 375px) {
@@ -25,6 +28,6 @@
 @media (min-width: 1125px) {
   /* 在这里添加你的样式规则 */
   .search-info {
-    display: hidden;
+    visibility: hidden;
   }
 }
