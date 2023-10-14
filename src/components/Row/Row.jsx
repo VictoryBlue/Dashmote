@@ -11,7 +11,7 @@ const Row = ({ id, category, name, users, dashboards, onClick }) => {
       <Flex
         justify="space-around"
         align="center"
-        className="dashboardContainer"
+        className="dashboard-one-row-container"
         style={{
           borderLeft: `8px solid ${colors[category]['banner']}`,
         }}
