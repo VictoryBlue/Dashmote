@@ -3,6 +3,7 @@ import './input.css';
 const { Search } = Input;
 
 const DmInput = ({ onSearch }) => {
+  // feat 4 As a user I want to search my projects by name
   return (
     <div className="DmInput">
       <Search
