@@ -1,10 +1,30 @@
-.DmInput {
+.Dm-input {
   padding: 8px;
   position: relative;
 }
+.search-info {
+  color: #283877;
+  /* font-weight: 600; */
+  font-size: 0.8rem;
+  padding-bottom: 2rem;
+}
 
-@media (max-width: 768px) {
-  .DmInput::before {
-    content: 'Here you can find your projects and dashboards.';
+/* feat 4:  */
+/* iPhone 6-8: 375 * 667 像素 */
+@media screen and (min-width: 375px) {
+  /* 在这里添加你的样式规则 */
+}
+
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  /* iPhone 8 Plus, iPhone X */
+}
+
+/* haven't to deal with 414~1225 */
+
+/* my screen 1342 * 564 works very well */
+@media (min-width: 1125px) {
+  /* 在这里添加你的样式规则 */
+  .search-info {
+    display: hidden;
   }
 }
