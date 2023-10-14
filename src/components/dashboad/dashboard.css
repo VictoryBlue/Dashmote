@@ -7,10 +7,13 @@
   font-size: 2rem;
   margin: 0;
 }
+/* scroll bar to  */
+.table-body {
+  height: 40vh;
+  overflow-y: scroll;
+}
 @media screen and (min-width: 375px) {
   .dashboard-container {
-    height: 40vh;
-    overflow-y: scroll;
     padding: 4vh 4vh;
   }
 }
@@ -24,10 +27,8 @@
 @media (min-width: 1125px) {
   /* 在这里添加你的样式规则 */
   .dashboard-container {
-    height: 40vh;
-    overflow-y: scroll;
-    padding: 6vh 8vh;
-    margin: 8vh 8vh;
+    padding: 10vh 8vh;
+    margin: 0 8vh;
   }
 
   /* 更多样式规则 */
