@@ -1,0 +1,9 @@
+{
+  "C": {
+    "banner": "#02cc75",
+    "circleBg": "#ccf5e3"
+  },
+  "F": { "banner": "#ba8cee", "circleBg": "#f0e6fc" },
+  "D": { "banner": "#319bff", "circleBg": "#d6ebff" },
+  "action": "#f4b3c8"
+}
