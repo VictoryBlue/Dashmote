@@ -35,7 +35,7 @@ const Row = ({ id, category, name, users, dashboards, onClick }) => {
 
         <div className="users">{`${users} users`}</div>
 
-        <Tag color="green">{`${dashboards} dashboards`}</Tag>
+        <Tag color="green" className="tag">{`${dashboards} dashboards`}</Tag>
         {/* feat 6 : to confirm when deleting a project */}
         {/* feat 5 : to delete of the 3 projects */}
         <div>

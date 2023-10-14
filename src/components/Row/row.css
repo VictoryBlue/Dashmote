@@ -27,3 +27,43 @@
 .users {
   color: #383a37;
 }
+
+@media screen and (min-width: 375px) {
+  .dashboard-one-row-container {
+    font-size: 0.8rem;
+  }
+  .circle {
+    margin-left: 1rem;
+    height: 20px;
+    width: 20px;
+  }
+  .delete {
+    display: none;
+  }
+  .users {
+    visibility: hidden;
+  }
+  .tag {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1125px) {
+  .dashboard-one-row-container {
+    font-size: 0.8rem;
+  }
+  .circle {
+    margin-left: 1rem;
+    height: 20px;
+    width: 20px;
+  }
+  .delete {
+    display: block;
+  }
+  .users {
+    visibility: visible;
+  }
+  .tag {
+    visibility: visible;
+  }
+}
